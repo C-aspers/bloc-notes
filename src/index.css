@@ -1,13 +1,53 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-color: orange;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.notes-display {
+  background-color: rgb(252, 252, 172);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 1rem;
+  min-height: 170px;
+}
+
+.areainput {
+  background-color: black;
+  color: red;
+  padding: 1rem;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: solid 1px red;
+}
+
+.input {
+  background-color: orange;
+  color:black;
+  padding: 2rem;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: solid 1px red;
+}
+
+button {
+  background-color: red;
+  border: solid 1px red;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: flex;
+  justify-content: space-between;
+  height: 250px;
+  width: 800px;
+}
+
+.sidebar {
+  border-right:solid 1px black;
 }
